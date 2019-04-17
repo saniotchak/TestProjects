@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNumbers", "UniqueNumb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangeArray", "RearrangeArray\RearrangeArray.csproj", "{5D3B19A2-0C87-4285-94C5-349EFB0C8F70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegersSorting", "IntegersSorting\IntegersSorting.csproj", "{E7B63578-1C6F-4663-8F79-D44A7E6B2661}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D3B19A2-0C87-4285-94C5-349EFB0C8F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D3B19A2-0C87-4285-94C5-349EFB0C8F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D3B19A2-0C87-4285-94C5-349EFB0C8F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B63578-1C6F-4663-8F79-D44A7E6B2661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B63578-1C6F-4663-8F79-D44A7E6B2661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B63578-1C6F-4663-8F79-D44A7E6B2661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B63578-1C6F-4663-8F79-D44A7E6B2661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
