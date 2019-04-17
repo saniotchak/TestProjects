@@ -14,7 +14,7 @@ namespace FooBar
             var stopWatch = new Stopwatch();
 
             const int start = 1;
-            const int end = 100;
+            const int end = 1000;
             
             stopWatch.Start();
             PrintFooBar1(start, end);
@@ -69,13 +69,17 @@ namespace FooBar
         {
             for (var i = divisionBy; i <= end; i += divisionBy)
             {
-                if(dictionary.ContainsKey(i))
+                if (!dictionary.ContainsKey(i)) continue;
+                if(!int.TryParse(dictionary[i], out _))
+                    dictionary[i] += $" {newValue}";
+                else
                     dictionary[i] = newValue;
             }
         }
 
         private static string GetCorrectValue(int number)
         {
+            if (number % 3 == 0 && number % 5 == 0) return $"{Foo} {Bar}";
             if (number % 3 == 0) return Foo;
             return number % 5 == 0 ? Bar : number.ToString();
         }
