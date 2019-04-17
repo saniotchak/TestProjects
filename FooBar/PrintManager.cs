@@ -14,7 +14,7 @@ namespace FooBar
             var stopWatch = new Stopwatch();
 
             const int start = 1;
-            const int end = 1000;
+            const int end = 100;
             
             stopWatch.Start();
             PrintFooBar1(start, end);
